@@ -78,7 +78,7 @@ def train():
         
         s = env.reset()
         s_prime = np.copy(s)
-        
+        score = 0
         for t in range(env.T_MAX):
             
             s = s_prime.copy()
@@ -90,6 +90,8 @@ def train():
             r, s_prime, done = env.step(a)
             transition = [s,a,r,s_prime]
             replay.put_data(transition)
+            score += r
+        print(f'Epoch {epoch}/ Reward\t', score)
             
         experience = replay.make_batch()
         td_error = train_critic(t=epoch, 
