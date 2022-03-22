@@ -26,13 +26,15 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Citations
 If this QMARL framework helps your academic/industrial research, 
-please cite this article.
+please cite this article [Paper](https://arxiv.org/abs/2203.10443).
 
 ```bibtex
 @article{yun2022quantum,
   title={Quantum Multi-Agent Reinforcement Learning via Variational Quantum Circuit Design},
   author={Yun, Won Joon and Kwak, Yunseok and Kim, Jae Pyoung and Cho, Hyunhee and Jung, Soyi and Park, Jihong and Kim, Joongheon},
   journal={CoRR},
-  year={2022}
+  volume={abs:2203.10443},
+  year={2022},
+  month={March}
 }
 ```
