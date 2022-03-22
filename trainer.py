@@ -108,8 +108,8 @@ def train():
             Scheduler[i].step()
             
         for i in range(n_agents):
-            torch.save(actors[i].state_dict(),     f'./Mode_{mode}_ep_agent_{i}.pkl')
-        torch.save(critic.state_dict()       ,     f'./Mode_{mode}_ep_centralV.pkl')
+            torch.save(actors[i].state_dict(),'./Qagent.pkl')
+        torch.save(critic.state_dict()       ,'./Qcritic.pkl')
             
 if __name__ == "__main__":
     train()
