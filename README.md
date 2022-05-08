@@ -27,6 +27,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## Citations
 If this QMARL framework helps your academic/industrial research, 
 please cite this article [Paper](https://arxiv.org/abs/2203.10443).
+This work is accepted to _**42nd IEEE International Conference on Distributed Computing Systems (ICDCS 2022)**_!
 
 ```bibtex
 @article{yun2022quantum,
